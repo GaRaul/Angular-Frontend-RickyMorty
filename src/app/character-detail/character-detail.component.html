@@ -1,0 +1,20 @@
+<div class="contenedor">
+  <div class="card">
+    <img
+      class="card-img-top"
+      src="{{ characters.image }}"
+      alt="Card image cap"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ characters.name }}</h5>
+      <p class="card-text">
+        Id: {{ characters.id }} <br />
+        Status: {{ characters.status }} <br />
+        Species {{ characters.species }} <br />
+        Gender: {{ characters.gender }} <br />
+        Origin: {{ characters.origin.name }} <br />
+        Location: {{ characters.location.name }}
+      </p>
+    </div>
+  </div>
+</div>
