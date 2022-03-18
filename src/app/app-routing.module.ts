@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { CharacterComponent } from './character/character.component';
 import { CharacterDetailComponent } from './character-detail/character-detail.component';
+import { AddCharacterComponent } from './add-character/add-character.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'character/:id',
     component: CharacterDetailComponent
+  },
+  {
+    path: 'add',
+    component: AddCharacterComponent
   }
 ];
 
